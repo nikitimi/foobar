@@ -6,6 +6,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/foobar', function () {
-    return view('foobar');
+Route::get('/foobar-laravel', function () {
+    return view('foobar-laravel');
 });
